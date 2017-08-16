@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, calm
+# This file is distributed under the same license as the bitglobal-help package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bitglobal-help \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-14 15:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/test.rst:2
+msgid "常见问题"
+msgstr ""
+
+#: ../../source/test.rst:4
+msgid "1、如何提高帐户的安全性？"
+msgstr ""
+
+#: ../../source/test.rst:5
+msgid "Bitglobal始终将平台的安全性放在第一位。除了绑定手机，设置谷歌验证之外，您还可以通过“导航”→“安全”入口开启登录验证、交易验证以及提现验证来提升帐户的安全性。"
+msgstr ""
+
+#: ../../source/test.rst:8
+msgid "2、如何充值？多久可以到账？手续费是多少？"
+msgstr ""
+
+#: ../../source/test.rst:10
+msgid "登录您的Bitglobal帐户，选择“导航”下的“充值”按钮，选择充值币种，然后按照页面提示进行充值操作。"
+msgstr ""
+
+#: ../../source/test.rst:12
+msgid "Bitglobal平台自身不收取任何充值费用，但由于转币涉及到一定的网络手续费，该笔费用将由Bitglobal平台代扣。"
+msgstr ""
+
+#: ../../source/test.rst:14
+msgid "鉴于不同币种的交易所需的区块确认数不同，正常情况下，转账成功后半个小时左右可以到账，通常不会超过两个小时。"
+msgstr ""
+
+#: ../../source/test.rst:17
+msgid "3、如何提现？手续费是多少？有限额吗？"
+msgstr ""
+
+#: ../../source/test.rst:19
+msgid "登录您的Bitglobal帐户，选择“导航”下的“提现”按钮，选择提现币种，然后按照页面提示进行操作。"
+msgstr ""
+
+#: ../../source/test.rst:21
+msgid "Bitglobal平台自身不收取任何提现费用，但由于转币涉及到一定的网络手续费，该笔费用将由Bitglobal平台代扣。"
+msgstr ""
+
+#: ../../source/test.rst:23
+msgid "不同币种的单日提现额度限制不同，详情请参考相应提现页面的“提现费率规则”提示。"
+msgstr ""
+
+#: ../../source/test.rst:26
+msgid "4、如何在Bitglobal上进行交易？手续费是多少？"
+msgstr ""
+
+#: ../../source/test.rst:28
+msgid "Bitglobal采用撮合交易法，按照价格优先、时间优先撮合成交，买卖手续费均为0.2%。"
+msgstr ""
+
+#: ../../source/test.rst:31
+msgid "5、登录密码忘了怎么办？"
+msgstr ""
+
+#: ../../source/test.rst:33
+msgid "Bitglobal提供手机号码和邮箱两种不同的方式帮助您找回登录密码，您可以在登录界面选择“忘记密码”后，按照页面提示进行操作。"
+msgstr ""
+
+#: ../../source/test.rst:36
+msgid "6、如何重置资金密码？"
+msgstr ""
+
+#: ../../source/test.rst:38
+msgid "Bitglobal提供手机号码和邮箱两种不同的方式帮助您找回资金密码，具体您可以在“设置资金密码”页面选择“忘记资金密码”后，按照页面提示进行操作。"
+msgstr ""
+
+#: ../../source/test.rst:41
+msgid "新用户注册"
+msgstr ""
+
+#: ../../source/test.rst:42
+msgid "登录Bitglobal首页（www.bitglobal.com），点击页面右上角的【注册】或首页横幅上的【立即注册】按钮，进入“注册页面”。"
+msgstr ""
+
+#: ../../source/test.rst:46
+msgid "输入常用手机号码/电子邮箱，设置登录密码（至少8个字符长），阅读并同意《服务条款》，点击【立即注册】。"
+msgstr ""
+
+#: ../../source/test.rst:50
+msgid "手机号码注册用户直接输入验证码即可，电子邮箱注册用户需点击邮箱内的激活链接，激活帐号。"
+msgstr ""
+
+#: ../../source/test.rst:54
+msgid "注册成功。为了您的资金安全和正常操作，建议您立即设置资金密码。"
+msgstr ""
+
+#: ../../source/test.rst:58
+msgid "5.点击【立即设置】，进入“设置资金密码”页面，输入资金密码后点击【提交】。"
+msgstr ""
+
+#: ../../source/test.rst:65
+msgid "6、资金密码设置完毕后即可登录帐号，直接进行充值并交易。"
+msgstr ""
+
+#: ../../source/test.rst:68
+msgid "登陆密码重置"
+msgstr ""
+
+#: ../../source/test.rst:69
+msgid "进入“登录页面”（https://www.bitglobal.com/login），点击【忘记密码】。"
+msgstr ""
+
+#: ../../source/test.rst:73
+msgid "进入“找回登录密码”页面，输入注册时的手机号码/电子邮箱，输入图形验证码后点击【提交】按钮，然后按照页面提示进行操作。"
+msgstr ""
+
+#: ../../source/test.rst:77
+msgid "输入新的登录密码，点击【提交】。"
+msgstr ""
+
+#: ../../source/test.rst:81
+msgid "4、登录密码修改成功"
+msgstr ""
+

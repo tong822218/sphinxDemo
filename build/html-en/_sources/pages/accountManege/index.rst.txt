@@ -1,0 +1,9 @@
+账户管理
+==========
+
+.. toctree::
+    :maxdepth: 2
+    :numbered: 3
+
+    regist
+    resetPassword
