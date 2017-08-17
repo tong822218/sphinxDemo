@@ -20,9 +20,9 @@
 
 
 
-# 安装read  the  doc  主题(如果不想用这个主题可以不安装 ,conf.py中将html_theme值改为alabaster即可)
-    pip install sphinx_rtd_theme  
-
+# 安装read  the  doc  主题
+    pip install sphinx_rtd_theme  (如果不想用这个主题可以不安装 ,conf.py中将html_theme值改为alabaster即可)
+    
 
 
 
@@ -37,19 +37,21 @@
 
 
 
+# 生成国际化文件及编译
+    具体语法可以参考这个网站 :http://lijiancheng0614.github.io/2016/02/16/2016_02_16_Python_Sphinx/
+    
+    进入到项目根目录运行命令:
 
-生成国际化文件及编译 具体语法可以参考这个网站 http://lijiancheng0614.github.io/2016/02/16/2016_02_16_Python_Sphinx/
-进入到项目根目录运行命令:
-
-make gettext && 
-sphinx-intl update -p build/gettext -l zh -l tw -l en &&
-sphinx-build -D language=zh_CN -b html ./source build/html-zh && 
-sphinx-build -D language=zh_TW -b html ./source ./build/html-tw && 
-sphinx-build -D language=en -b html ./source ./build/html-en
+    make gettext && 
+    sphinx-intl update -p build/gettext -l zh -l tw -l en &&
+    sphinx-build -D language=zh_CN -b html ./source build/html-zh && 
+    sphinx-build -D language=zh_TW -b html ./source ./build/html-tw && 
+    sphinx-build -D language=en -b html ./source ./build/html-en
 
 * 执行上面命令在 source/locale/ 下会生成对应的三种语言的文件,打开对应的.po文件填入对应的国际化即可 如:
 
-msgid "常见问题"
-msgstr "FAQ"
+        msgid "常见问题"
+
+        msgstr "FAQ"
 
 * 填写完国际化后然后再运行上面的命令即可,编译后的文件都在build下.
