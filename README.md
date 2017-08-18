@@ -45,10 +45,9 @@
     
     进入到项目根目录运行命令:
 
-    make gettext && 
-    sphinx-intl update -p build/gettext -l zh -l tw -l en &&
-    sphinx-build -D language=zh_CN -b html ./source build/html-zh && 
-    sphinx-build -D language=zh_TW -b html ./source ./build/html-tw && 
+    make gettext && sphinx-intl update -p build/gettext -l zh_CN -l zh_TW -l en &&
+    sphinx-build -D language=zh_CN -b html ./source build/html-zh &&
+    sphinx-build -D language=zh_TW -b html ./source ./build/html-tw &&
     sphinx-build -D language=en -b html ./source ./build/html-en
 
 * 执行上面命令在 source/locale/ 下会生成对应的三种语言的文件,打开对应的.po文件填入对应的国际化即可 如:
